@@ -23,7 +23,7 @@ public class SistemaPedidoApplication implements CommandLineRunner {
             public void run(String... args) throws Exception {
 
 
-            Locale.setDefault(Locale.US); 
+            Locale.setDefault(Locale.US);
             try (Scanner sc = new Scanner(System.in)) {
                 System.out.println("Digite o codigo do Pedido: ");
                 Integer code = (sc.nextInt());
